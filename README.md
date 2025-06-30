@@ -37,7 +37,7 @@ An enterprise-grade AI agent system for automated invoice processing with image-
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd ai-invoice-agent
+cd aiinvoiceagent
 
 # Install dependencies
 pip install -r requirements.txt
@@ -63,10 +63,10 @@ ollama pull llama3.2-vision
 
 ```bash
 # Start API server
-./start_api.sh
+./start_api.sh  or startapi.bat ( windows)
 
 # Start dashboard (in another terminal)
-./start_dashboard.sh
+./start_dashboard.sh  or startui.bat
 ```
 
 ### 4. Process Invoices
@@ -80,7 +80,7 @@ Place invoice images in the `incoming/` folder and monitor processing via the da
 ## 📁 Project Structure
 
 ```
-ai-invoice-agent/
+aiinvoiceagent/
 ├── incoming/              # Input folder for invoice images
 ├── generated/             # Output folder for processed files
 ├── logs/                  # Application logs
